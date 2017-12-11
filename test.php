@@ -1,7 +1,9 @@
-<HTML> 
-<HEAD> 
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
 <TITLE>Отправка сообщения с вложением</TITLE> 
-</HEAD> 
+</head> 
 <BODY> 
 <H3> <center><font color="#1E90FF">Отправка сообщения с вложением</font></H3> 
 <center> 

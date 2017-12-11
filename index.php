@@ -305,6 +305,9 @@
           <input type="hidden" name="send_type" class="send-type" value="1" />
           <input type="hidden" name="send_extra" class="send-extra" value="1" />
           <button type="submit" class="btn btn-my dark btn-block m-auto">Отправить</button>
+          <div class="oksend">
+            <p>Спасибо, ваша заявка принята</p>
+          </div>
         </form>
       </div>
     </div>
@@ -312,7 +315,7 @@
     <div id="registration-form" class="popup__form white-popup-block mfp-hide">
       <h3>Регистрация</h3>
       <div class="text-center">
-        <!--<form action="send.php" method="post" class="send-form" enctype="multipart/form-data">
+        <form action="send.php" method="post" class="send-form" enctype="multipart/form-data">
           <div class="form-group text-left">
             <label>Ваше имя<sup>*</sup></label>
             <input type="text" name="client_name" id="name" class="form-control rounded-0 client-name" placeholder="Ваше имя"/>
@@ -341,17 +344,14 @@
           <input type="hidden" name="send_type" class="send-type" value="2" />
           <input type="hidden" name="send_extra" class="send-extra" value="2" />
           <button type="submit" class="btn btn-my dark btn-block m-auto">Отправить</button>
-        </form>-->
-        <div class="oksend">
-          <p>Спасибо за регистрацию</p>
-        </div>
+          <div class="oksend">
+            <p>Спасибо за регистрацию</p>
+          </div>
+        </form>
       </div>
     </div>
 
     <script src="scripts/vendor.js"></script>
-    
-    
-    
     <script src="scripts/main.js"></script>
   </body>
 </html>
